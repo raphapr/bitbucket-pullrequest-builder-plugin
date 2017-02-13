@@ -81,7 +81,7 @@ public class BitbucketCause extends Cause {
 
     @Override
     public String getShortDescription() {
-        String description = "Pull request #" + this.getPullRequestId() + " : " + this.getPullRequestTitlte();
+        String description = "Pull request #" + this.getPullRequestId() + " : " + this.getPullRequestTitle();
         return description;
     }
     
